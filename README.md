@@ -179,10 +179,6 @@ python main.py --mode all --episodes 10
   ```powershell
   python main.py --mode self_play --episodes 15
   ```
-* **Huấn luyện mới từ đầu (Bỏ qua checkpoint cũ):**
-  ```powershell
-  python main.py --mode self_play --episodes 15 --fresh
-  ```
 * **Benchmark Engine C/C++ SIMD AVX2:**
   ```powershell
   python main.py --mode benchmark_simd
